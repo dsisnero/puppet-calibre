@@ -3,9 +3,11 @@
 # Examples
 #
 #   include calibre
-class calibre {
+class calibre (
+  $version = '1.19.0'
+) {
   package { 'Calibre':
-    source   => 'http://download.calibre-ebook.com/1.19.0/calibre-1.19.0.dmg',
+    source   => "http://download.calibre-ebook.com/${version}/calibre-${version}.dmg",
     provider => 'appdmg'
   }
 }
