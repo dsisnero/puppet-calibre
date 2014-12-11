@@ -4,7 +4,7 @@
 #
 #   include calibre
 class calibre (
-  $version = '1.19.0'
+  $version = '2.12.0'
 ) {
   package { "Calibre_${version}":
     source   => "http://download.calibre-ebook.com/${version}/calibre-${version}.dmg",

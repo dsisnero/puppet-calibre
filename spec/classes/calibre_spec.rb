@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe 'calibre' do
   it do
-    should contain_package('Calibre_1.19.0').with({
+    should contain_package('Calibre_2.12.0').with({
       :provider => 'appdmg',
-      :source   => 'http://download.calibre-ebook.com/1.19.0/calibre-1.19.0.dmg'
+      :source   => 'http://download.calibre-ebook.com/2.12.0/calibre-2.12.0.dmg'
       })
   end
 
